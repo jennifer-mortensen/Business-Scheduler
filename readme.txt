@@ -1,5 +1,5 @@
-J. Mortensen
-jmort58@wgu.edu
+Jennifer Mortensen
+jennifer.erin.mortensen@gmail.com
 
 Business Scheduler 1.01 / July 9 2021 Release
 Created in Apache NetBeans IDE 12.3 Uses Jave SE 11.0.11 with javafx-sdk-11.0.2 and the the mysql-connector-java-8.0.22 driver.
