@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/controller/AddCustomerController.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Address.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/DBAccess/DBUsers.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/DBAccess/DBCities.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/controller/AppointmentsController.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Reports/MonthlyAdditionsByUserRow.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/controller/LoginController.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Reports/AppointmentsByMonthRow.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Country.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/DBAccess/DBCountries.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/DBAccess/DBAddresses.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/controller/CustomersController.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/City.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/util/MessageBox.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/DBAccess/DBCustomers.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/controller/AddAppointmentController.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Reports/ContactSchedule.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Reports/ContactScheduleRow.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/business/scheduler/BusinessScheduler.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Reports/MonthlyAdditionsByUser.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Appointment.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/User.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Reports/AppointmentsByMonth.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Model/Customer.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/Database/DBConnection.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/util/Time.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/DBAccess/DBAppointments.java</file>
+            <file>file:/C:/Users/jpers/Documents/College/Capstone/Business%20Scheduler/src/controller/MainController.java</file>
+        </group>
+    </open-files>
+</project-private>

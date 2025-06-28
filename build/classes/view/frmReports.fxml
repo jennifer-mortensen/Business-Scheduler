@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="1294.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportsController">
+   <children>
+      <TabPane layoutX="30.0" layoutY="84.0" prefHeight="501.0" prefWidth="1226.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab fx:id="tabAppointmentsByMonth1" text="Appointment Types by Month">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tblAppointmentsByMonth" layoutX="14.0" layoutY="8.0" prefHeight="455.0" prefWidth="869.0">
+                           <columns>
+                              <TableColumn fx:id="colABMMonth" prefWidth="229.0" text="Month" />
+                              <TableColumn fx:id="colABMOpenAccount" prefWidth="160.0" text="Open Account" />
+                              <TableColumn fx:id="colABMConsultation" prefWidth="160.0" text="Consultation" />
+                              <TableColumn fx:id="colABMFollowUp" minWidth="0.0" prefWidth="160.0" text="Follow-Up" />
+                              <TableColumn fx:id="colABMOther" minWidth="0.0" prefWidth="160.0" text="Other" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+          <Tab fx:id="tabContactSchedule" text="Contact Schedule">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="472.0" prefWidth="1107.0">
+                     <children>
+                        <TableView fx:id="tblContactSchedule" layoutX="14.0" layoutY="8.0" prefHeight="455.0" prefWidth="1195.0">
+                          <columns>
+                            <TableColumn fx:id="colCSContactName" prefWidth="186.0" text="Contact Name" />
+                            <TableColumn fx:id="colCSAppointmentID" prefWidth="101.0" text="Appointment ID" />
+                              <TableColumn fx:id="colCSTitle" prefWidth="134.0" text="Title" />
+                              <TableColumn fx:id="colCSType" prefWidth="104.0" text="Type" />
+                              <TableColumn fx:id="colCSDescription" prefWidth="301.0" text="Description" />
+                              <TableColumn fx:id="colCSStartDateAndTime" prefWidth="129.0" text="Start Date and Time" />
+                              <TableColumn fx:id="colCSEndDateAndTime" prefWidth="137.0" text="End Date and Time" />
+                              <TableColumn fx:id="colCSCustomerID" prefWidth="101.0" text="Customer ID" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="tabMothlyAdditionsByUser" text="Monthly Additions by User">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tblMonthlyAdditionsByUser" layoutX="14.0" layoutY="9.0" prefHeight="455.0" prefWidth="669.0">
+                           <columns>
+                              <TableColumn fx:id="colABUUserID" prefWidth="123.0" text="User ID" />
+                              <TableColumn fx:id="colABUUserName" prefWidth="230.0" text="User Name" />
+                              <TableColumn fx:id="colABUNewCustomers" minWidth="0.0" prefWidth="160.0" text="New Customers" />
+                              <TableColumn fx:id="colABUNewAppointments" minWidth="0.0" prefWidth="160.0" text="New Appointments" />
+                           </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label fx:id="lblReports" layoutX="576.0" layoutY="35.0" text="Reports">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="1192.0" layoutY="594.0" mnemonicParsing="false" onAction="#HandleBack" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

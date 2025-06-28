@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="1393.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AppointmentsController">
+   <children>
+      <TableView fx:id="tblAppointments" layoutX="37.0" layoutY="96.0" prefHeight="468.0" prefWidth="1320.0">
+        <columns>
+          <TableColumn fx:id="colAppointmentID" prefWidth="118.0" text="Appointment ID" />
+          <TableColumn fx:id="colTitle" prefWidth="176.0" text="Title" />
+            <TableColumn fx:id="colDescription" minWidth="0.0" prefWidth="282.0" text="Description" />
+            <TableColumn fx:id="colLocation" prefWidth="115.0" text="Location" />
+            <TableColumn fx:id="colContact" prefWidth="153.0" text="Contact" />
+            <TableColumn fx:id="colType" prefWidth="97.0" text="Type" />
+            <TableColumn fx:id="colStartDateAndTime" prefWidth="126.0" text="Start Date and Time" />
+            <TableColumn fx:id="colEndDateAndTime" prefWidth="136.0" text="End Date and Time" />
+            <TableColumn fx:id="colCustomerID" prefWidth="116.0" text="Customer ID" />
+        </columns>
+      </TableView>
+      <RadioButton fx:id="optAppointmentsWeekly" layoutX="37.0" layoutY="586.0" mnemonicParsing="false" onAction="#UpdateAppointmentPeriod" text="Appointments Weekly">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="optAppointmentsMonthly" layoutX="218.0" layoutY="586.0" mnemonicParsing="false" onAction="#UpdateAppointmentPeriod" text="Appointments Monthly">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="lblAppointments" layoutX="613.0" layoutY="37.0" text="Appointments">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAddAppointment" layoutX="911.0" layoutY="581.0" mnemonicParsing="false" onAction="#HandleAddAppointment" text="Add Appointment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdateAppointment" layoutX="1053.0" layoutY="581.0" mnemonicParsing="false" onAction="#HandleUpdateAppointment" text="Update Appointment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDeleteAppointment" layoutX="1213.0" layoutY="581.0" mnemonicParsing="false" onAction="#HandleDeleteAppointment" text="Delete Appointment">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBack" layoutX="1310.0" layoutY="633.0" mnemonicParsing="false" onAction="#HandleBack" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
